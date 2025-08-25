@@ -1,0 +1,7 @@
+package com.example.demo.repository;
+@Repository
+public class ItemRepository extends JpaRepository<Item, Integer> {
+	 Student findByEmail(String email);
+	    Student findByContact(String contact);
+}
+

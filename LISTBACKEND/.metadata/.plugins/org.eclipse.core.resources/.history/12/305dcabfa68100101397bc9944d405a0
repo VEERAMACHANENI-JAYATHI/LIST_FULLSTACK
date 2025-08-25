@@ -1,0 +1,41 @@
+package com.example.demo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+
+public class InventoryServiceImpl {
+
+	    @Autowired
+	    private ItemRepository itemRepository;
+
+	    @Override
+	    public Item addItem(Item item) {
+	        return itemRepository.save(item);
+	    }
+
+	    @Override
+	    public List<Item> getAllStudents() {
+	        return studentRepository.findAll();
+	    }
+
+	    @Override
+	    public Student getStudentById(int id) {
+	        Optional<Student> opt = studentRepository.findById(id);
+	        return opt.orElse(null);
+	    }
+
+	    @Override
+	    public Student updateStudent(Student student) {
+	        return studentRepository.save(student);
+	    }
+
+	    @Override
+	    public void deleteStudentById(int id) {
+	        studentRepository.deleteById(id);
+	    }
+}
+
+
+

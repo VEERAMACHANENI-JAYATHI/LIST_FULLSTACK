@@ -1,0 +1,6 @@
+package com.example.demo.repository;
+@Repository
+public class ItemRepository extends JpaRepository<Student, Integer> {
+
+}
+

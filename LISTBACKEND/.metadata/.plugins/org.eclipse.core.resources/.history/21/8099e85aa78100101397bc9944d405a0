@@ -1,0 +1,10 @@
+package com.example.demo.repository;
+
+import com.example.demo.entity.Item;
+
+@Repository
+public class ItemRepository extends JpaRepository<Item, Integer> {
+	 Item findByEmail(String email);
+	    Student findByContact(String contact);
+}
+
