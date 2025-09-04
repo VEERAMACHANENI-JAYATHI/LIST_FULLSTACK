@@ -1,0 +1,6 @@
+# Eclipse workspace and metadata
+*.metadata/
+*.classpath
+*.project
+*.settings/
+*.factorypath

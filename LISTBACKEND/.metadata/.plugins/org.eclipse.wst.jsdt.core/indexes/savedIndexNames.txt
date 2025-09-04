@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\2025-2026 ODD SEM\STACK\LISTBACKEND\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2988908023.index
-1909516922.index
-2070072516.index
-3736197321.index
-2683247880.index
-3944221990.index
