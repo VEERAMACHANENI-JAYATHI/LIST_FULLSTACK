@@ -11,7 +11,7 @@ import com.example.demo.entity.Item;
 import com.example.demo.service.InventoryService;
 
 @RestController
-@RequestMapping("/inventoryapi/")
+@RequestMapping("/inventoryapi")
 @CrossOrigin(origins = "*")
 public class InventoryController {
 
