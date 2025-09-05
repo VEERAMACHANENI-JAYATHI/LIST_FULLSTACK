@@ -1,9 +1,88 @@
-.student-container { max-width:900px; margin:auto; padding:20px; font-family:Arial;}
-.form-grid { display:grid; grid-template-columns: repeat(5,1fr); gap:10px; margin-bottom:15px;}
-input { padding:8px; border-radius:4px; border:1px solid #ccc;}
-.btn-group button { padding:8px 12px; margin-right:8px; border:none; border-radius:4px; cursor:pointer;}
-.btn-blue{background:#007bff;color:white;} .btn-green{background:#28a745;color:white;} .btn-red{background:#dc3545;color:white;} .btn-gray{background:#6c757d;color:white;}
-table {width:100%; border-collapse:collapse;} th,td{border:1px solid #ccc;padding:8px;text-align:center;}
-.message-banner{padding:10px;margin-bottom:10px;border-radius:4px;}
-.message-banner.success{background:#d4edda;color:#155724;}
-.message-banner.error{background:#f8d7da;color:#721c24;}
+/* ===== Container ===== */
+.inventory-container {
+  background: #111;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 1px solid #FFD700;
+}
+
+/* ===== Headings ===== */
+.inventory-container h2 {
+  color: #FFD700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inventory-container h3 {
+  color: #FFD700;
+  margin: 15px 0 10px;
+}
+
+/* ===== Inputs ===== */
+.inventory-container input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #FFD700;
+  background: #222;
+  color: #FFD700;
+}
+
+.inventory-container input:focus {
+  outline: none;
+  border-color: #ffea00;
+}
+
+/* ===== Buttons ===== */
+.inventory-container button {
+  background: #FFD700;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.inventory-container button:hover {
+  background: #e6c200;
+}
+
+/* ===== Table ===== */
+.inventory-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.inventory-container th,
+.inventory-container td {
+  border: 1px solid #FFD700;
+  padding: 8px;
+  text-align: center;
+}
+
+.inventory-container th {
+  background: #FFD700;
+  color: #000;
+}
+
+.inventory-container td {
+  background: #1a1a1a;
+  color: #f5f5f5;
+}
+
+/* ===== Messages ===== */
+.success-msg {
+  color: #00ff66;
+  margin-bottom: 10px;
+}
+
+.error-msg {
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
